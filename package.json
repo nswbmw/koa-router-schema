@@ -1,0 +1,31 @@
+{
+  "name": "koa-router-schema",
+  "version": "1.0.0",
+  "description": "Schema validate middleware for [koa-router](https://github.com/alexmingoia/koa-router).",
+  "main": "index.js",
+  "keywords": [
+    "koa",
+    "router",
+    "schema",
+    "validate"
+  ],
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "dependencies": {
+    "another-json-schema": "^1.1.1"
+  },
+  "devDependencies": {
+    "koa": "^1.1.2",
+    "koa-bodyparser": "^2.0.1",
+    "koa-router": "^5.4.0",
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0"
+  },
+  "author": "nswbmw",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nswbmw/koa-router-schema.git"
+  }
+}
