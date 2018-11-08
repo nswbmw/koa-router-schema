@@ -34,7 +34,7 @@ router.post('/', schema('indexSchema', {
       user: {
         name: { type: 'string', pattern: /^[0-9a-zA-Z_]{6,}$/ },
         age: { type: 'number', range: [18, 100] },
-        gender: { type: 'string', enum: ['male', 'female'] }
+        gender: { type: 'string', enum: ['male', 'female', 'non-binary'] }
       },
       content: { type: 'string', validate: function validateContent(content) {
         return !content.match(/fuck/);
